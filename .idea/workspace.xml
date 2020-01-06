@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe6473d4-0b6b-4eec-a35c-1306a9030be5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../myjava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myjava/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fe6473d4-0b6b-4eec-a35c-1306a9030be5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/../myjava/out/" />
     <ignored path="$PROJECT_DIR$/../myjava/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -168,6 +166,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../myjava" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
@@ -251,7 +252,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578275649394</updated>
-      <workItem from="1578275650854" duration="4859000" />
+      <workItem from="1578275650854" duration="5126000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1578276633828</created>
@@ -274,15 +275,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578290743536</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="冒泡排序">
+      <created>1578290959869</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578290959869</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4859000" />
+    <option name="totallyTimeSpent" value="5126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -293,12 +300,12 @@
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50053304" side_tool="true" weight="0.32925472" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.27919912" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.27919912" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="SciView" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
