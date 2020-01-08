@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe6473d4-0b6b-4eec-a35c-1306a9030be5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../myjava/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myjava/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myjava/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myjava/src/main/java/com/tmx/stuckData/sortArithmetic/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../myjava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myjava/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShellSort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShellSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../myjava/src/main/java/com/tmx/stuckData/sortArithmetic/ShellSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
               <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../myjava/src/main/java/com/tmx/stuckData/sortArithmetic/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -62,6 +72,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tmx/stuckData/sortArithmetic/SelectSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tmx/stuckData/sortArithmetic/InsertSort.java" />
         <option value="$PROJECT_DIR$/../myjava/src/main/java/com/tmx/stuckData/sortArithmetic/ShellSort.java" />
+        <option value="$PROJECT_DIR$/../myjava/src/main/java/com/tmx/stuckData/sortArithmetic/QuickSort.java" />
       </list>
     </option>
   </component>
@@ -203,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShellSort">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tmx.stuckData.sortArithmetic.BubbleSort" />
       <module name="myjava" />
@@ -219,6 +230,17 @@
       <option name="MAIN_CLASS_NAME" value="com.tmx.stuckData.sortArithmetic.InsertSort" />
       <module name="myjava" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tmx.stuckData.sortArithmetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tmx.stuckData.sortArithmetic.QuickSort" />
+      <module name="myjava" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../myjava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tmx.stuckData.sortArithmetic.*" />
@@ -294,9 +316,11 @@
       <item itemvalue="Application.SelectSort" />
       <item itemvalue="Application.InsertSort" />
       <item itemvalue="Application.ShellSort" />
+      <item itemvalue="Application.QuickSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.SelectSort" />
@@ -316,7 +340,7 @@
       <updated>1578275649394</updated>
       <workItem from="1578275650854" duration="11079000" />
       <workItem from="1578359964702" duration="1326000" />
-      <workItem from="1578449559809" duration="8095000" />
+      <workItem from="1578449559809" duration="11381000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1578276633828</created>
@@ -360,14 +384,22 @@
       <option name="project" value="LOCAL" />
       <updated>1578298447115</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="希尔排序">
+      <created>1578463682776</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578463682776</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20500000" />
+    <option name="totallyTimeSpent" value="23786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -378,19 +410,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.32925472" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.33926585" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.23248054" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,7 +476,13 @@
     <MESSAGE value="测试提交" />
     <MESSAGE value="冒泡排序" />
     <MESSAGE value="选择和插入排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="选择和插入排序" />
+    <MESSAGE value="希尔排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="希尔排序" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../myjava/pom.xml">
@@ -544,6 +582,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myjava/src/main/java/com/tmx/stuckData/sortArithmetic/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
         </state>
       </provider>
     </entry>
