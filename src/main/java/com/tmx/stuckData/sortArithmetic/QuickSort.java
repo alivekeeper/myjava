@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 /**
  * @author mingxiong.tang
- * @Date: 2020/1/8 14:08
  */
 public class QuickSort {
     /**

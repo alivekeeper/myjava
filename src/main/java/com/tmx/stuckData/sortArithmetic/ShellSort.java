@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 /**
  * @author mingxiong.tang
- * @Date: 2020/1/8 10:24
  */
 public class ShellSort {
     /**
