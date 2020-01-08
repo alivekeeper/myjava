@@ -4,7 +4,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
- * @author mingxiong.tang
+ * @author mr.tang
  */
 public class BubbleSort {
     //推导步骤
