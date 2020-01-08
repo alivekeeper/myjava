@@ -3,7 +3,7 @@ package com.tmx.stuckData.sortArithmetic;
 import java.util.Arrays;
 
 /**
- * @author mingxiong.tang
+ * @author mr.tang
  */
 public class ShellSort {
     /**
